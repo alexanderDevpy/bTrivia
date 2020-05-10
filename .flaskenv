@@ -1,0 +1,2 @@
+FLASK_APP=trivia.py
+FLASK_DEBUG=1

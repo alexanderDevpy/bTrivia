@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Sign In</h1>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.question.label }}<br>
+            {{ form.question() }}<br>
+            {% for error in form.question.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.answers.label }}<br>
+            {{ form.answers() }}<br>
+            {% for error in form.answers.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.correct.label }}<br>
+            {{ form.correct() }}<br>
+            {% for error in form.correct.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.speed() }} {{ form.speed.label }}</p>
+        <p>{{ form.submit() }}</p>
+    </form>
+
+{% endblock %}

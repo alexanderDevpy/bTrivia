@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0f4304d-ade5-4eaa-9028-f4592a4567d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1b2KlswCFug0O4UOu9kF8172Woj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\triviador\app\static\img" />
+      <recent name="D:\python\triviador\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="trivia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="triviador" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trivia.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0f4304d-ade5-4eaa-9028-f4592a4567d9" name="Default Changelist" comment="" />
+      <created>1587824902413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587824902413</updated>
+      <workItem from="1588426169952" duration="17878000" />
+      <workItem from="1588508117189" duration="6656000" />
+      <workItem from="1588678734327" duration="23210000" />
+      <workItem from="1588767252883" duration="8173000" />
+      <workItem from="1588793645877" duration="380000" />
+      <workItem from="1589116313530" duration="2854000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="762" y="221" key="#Notifications" timestamp="1587837750651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="762" y="221" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587837750651" />
+    <state x="679" y="146" key="#__init__" timestamp="1587829509528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="146" key="#__init__/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587829509528" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588430558950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588430558950" />
+    <state x="831" y="366" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587829703377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="831" y="366" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587829703377" />
+    <state x="1056" y="303" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1588430991121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1056" y="303" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588430991121" />
+    <state x="981" y="189" key="#config" timestamp="1587838569733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="981" y="189" key="#config/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587838569733" />
+    <state x="776" y="189" key="#trivia" timestamp="1587830898239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="189" key="#trivia/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587830898239" />
+    <state x="791" y="324" key="EnvironmentVariablesDialog" timestamp="1587829536383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="791" y="324" key="EnvironmentVariablesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587829536383" />
+    <state x="1042" y="318" key="FileChooserDialogImpl" timestamp="1587905413838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1042" y="318" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587905413838" />
+    <state width="1899" height="363" key="GridCell.Tab.0.bottom" timestamp="1589119219489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589119219489" />
+    <state width="1899" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588780957261" />
+    <state width="1899" height="363" key="GridCell.Tab.0.center" timestamp="1589119219489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589119219489" />
+    <state width="1899" height="198" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588780957261" />
+    <state width="1899" height="363" key="GridCell.Tab.0.left" timestamp="1589119219488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589119219488" />
+    <state width="1899" height="198" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588780957261" />
+    <state width="1899" height="363" key="GridCell.Tab.0.right" timestamp="1589119219489">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="363" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589119219489" />
+    <state width="1899" height="198" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588780957261" />
+    <state x="827" y="166" key="SettingsEditor" timestamp="1588431053760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="827" y="166" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588431053760" />
+    <state x="1229" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1589121974589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1229" y="387" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589121974589" />
+    <state x="1229" y="387" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588767246316" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588017953646">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588017953646" />
+  </component>
+</project>

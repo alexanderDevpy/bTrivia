@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon-32x32.png') }}" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/favicon-16x16.png') }}" sizes="16x16" />
+
+
+</head>
+<body >
+<div class="container">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
+
+
+    <h1 id="hhh" name="{{user}}"></h1>
+    <div class="info" id="green"><img src="/static/img/green.png" > <p class="dis"> Waiting for user </p> </div>
+    <div class="info" id="blue"><img src="/static/img/blue.png"> <p class="dis">Waiting for user  </p> </div>
+    <div class="info" id="red"><img src="/static/img/red.png"> <p class="dis"> Waiting for user </p> </div>
+
+
+
+
+    <div class="text-center">
+        <div id='overlay'>Next round begin soon</div>
+
+        <div id="start"> </div>
+        <div id="par1">
+            <div class="player blue" id="pla1"></div>
+            <div class="player red"  id="pla2"></div>
+            <div class="player green"  id="pla3"></div>
+        </div>
+        <div id="par2"></div>
+        <div id="par3"></div>
+        <div id="par4"></div>
+        <div id="par5"></div>
+        <div id="par6"></div>
+        <div id="par7"></div>
+        <div id="par8"></div>
+        <div id="par9"></div>
+        <div id="par10"></div>
+        <div id="par11"></div>
+        <div id="par12"></div>
+        <div id="par13"></div>
+        <div id="finish"></div>
+        <img src="/static/img/map.jpg" class="rounded" alt="...">
+    </div>
+
+
+    <div class="modal fade  "  id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <h1 id="question"></h1>
+                    <div id="qbody">
+
+                        <button type="button" id="q1" class="btn btn-primary qe">Primary</button>
+                        <button type="button" id="q2" class="btn btn-primary qe">Primary</button>
+                        <button type="button" id="q3" class="btn btn-primary qe">Primary</button>
+                        <button type="button" id="q4" class="btn btn-primary qe">Primary</button>
+
+                    </div>
+                </div>
+                <div class="modal-footer foot">
+                    <p id="time"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html>
+
