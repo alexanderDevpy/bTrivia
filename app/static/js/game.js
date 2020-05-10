@@ -152,8 +152,7 @@ $(function () {
 
         socket.emit('pleft', {'room': da});
         await new Promise(r => setTimeout(r, 1000));
-
-        window.location.href = "protocol + '//' + document.domain + ':' + location.port + '/finish/10'";
+        window.location.replace(protocol + '//' + document.domain + ':' + location.port + '/finish/'+'10');
 
     });
 
