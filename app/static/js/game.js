@@ -6,7 +6,7 @@ $(function () {
 
 
 
-    if( document.referrer == protocol + '//' + document.domain + ':' + location.port + '/lobby' ) {
+    if( document.referrer == protocol + '//' + document.domain +'/lobby' ) {
         $('[data-toggle="popover"]').popover();
 
         var socket = io.connect(protocol + '//' + document.domain + ':' + location.port + '/game', {transports: ['websocket']});
