@@ -14,19 +14,17 @@
 </head>
 <body >
 <div class="container">
-    <ul class="nav justify-content-center">
+    <ul class="nav justify-content-center" style="text-align: center">
         <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
+            <button  style="background-color: #5cb85c; border-color: #5cb85c"        type="button" class="btn btn-lg " data-toggle="popover" title="Game info" data-content="Raspunde la cat mai multe intrebari corect. Primul care termina primeste 10 puncte, al doliea 5 ,iar ultimul 0. Pentru a inchide apasa iar pe '?'"><span>&#63;</span></button>
+        </li>
+
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+
+            <a style="font-weight: bold; color: red;margin-top: 3px" class="nav-link" id="exit" href="{{ url_for('index') }}"> Exit</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+
     </ul>
 
 
@@ -42,29 +40,29 @@
         <div id='overlay'>Next round begin soon</div>
 
         <div id="start"> </div>
-        <div id="par1">
+        <div id="par1" class="hops">
             <div class="player blue" id="pla1"></div>
             <div class="player red"  id="pla2"></div>
             <div class="player green"  id="pla3"></div>
         </div>
-        <div id="par2"></div>
-        <div id="par3"></div>
-        <div id="par4"></div>
-        <div id="par5"></div>
-        <div id="par6"></div>
-        <div id="par7"></div>
-        <div id="par8"></div>
-        <div id="par9"></div>
-        <div id="par10"></div>
-        <div id="par11"></div>
-        <div id="par12"></div>
-        <div id="par13"></div>
-        <div id="finish"></div>
+        <div id="par2" class="hops"></div>
+        <div id="par3" class="hops"></div>
+        <div id="par4" class="hops"></div>
+        <div id="par5" class="hops"></div>
+        <div id="par6" class="hops"></div>
+        <div id="par7" class="hops"></div>
+        <div id="par8" class="hops"></div>
+        <div id="par9" class="hops"></div>
+        <div id="par10" class="hops"></div>
+        <div id="par11" class="hops"></div>
+        <div id="par12" class="hops"></div>
+        <div id="par13" class="hops"></div>
+        <div id="finish" ></div>
         <img src="/static/img/map.jpg" class="rounded" alt="...">
     </div>
 
 
-    <div class="modal fade  "  id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade  "  id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">

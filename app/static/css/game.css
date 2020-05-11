@@ -2,13 +2,25 @@ body {
     background-image: url('/static/img/dis.jpg');
     background-color: olivedrab;
 }
+.hops{
 
+    border-radius: 50%;
+    background-color: white;
+    width: 72px;
+    height: 72px;
+    background-color: rgba(0,0,255,0.3);
+    border:1px solid red;
+
+
+
+}
 .container {
     background-color: #135e9e;
     height: 1000px;
     padding-left: 0px;
     padding-right: 0px;
     text-align: center;
+
 }
 
 .nav {
@@ -37,6 +49,8 @@ body {
     display: inline-block;
     height: 24px;
     width: 24px;
+    opacity: 1;
+
 }
 
 #pla1 {

@@ -7,9 +7,12 @@ $(function () {
 
 
     if( document.referrer == protocol + '//' + document.domain + ':' + location.port + '/lobby' ) {
+        $('[data-toggle="popover"]').popover();
 
         var socket = io.connect(protocol + '//' + document.domain + ':' + location.port + '/game', {transports: ['websocket']});
-
+        $("#exit").on("click", function(){
+            $(this).hide();
+        });
 
 
 

@@ -3,10 +3,15 @@
 {% block content %}
 <div class="rank" >
 
-
+    {% if top[0].score > 0 %}
     <div id="pos1" class="top">{{top[0].username}} </div>
+    {% endif%}
+    {% if top[1].score > 0 %}
     <div id="pos2" class="top">{{top[1].username}}  </div>
+    {% endif%}
+    {% if top[2].score > 0 %}
     <div id="pos3" class="top">{{top[2].username}}  </div>
+    {% endif%}
 
 
 
