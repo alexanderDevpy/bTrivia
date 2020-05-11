@@ -39,12 +39,14 @@ def login():
 
 
 @app.route('/logout')
+@login_required
 def logout():
     logout_user()
     return redirect(url_for('login'))
 
 
 @app.route('/admin', methods=['GET', 'POST'])
+@login_required
 def admin():
     if current_user.admin:
         form = QuestionForm()
@@ -74,16 +76,18 @@ def register():
     return render_template('register.html', title='Register', form=form)
 
 
-@app.route('/finish/<score>')
-def finish(score):
+@app.route('/_finish',  methods=['POST'])
+@login_required
+def finish():
     id = current_user.get_id()
     user = User.query.get_or_404(id)
     print(user.score)
+    score = request.form['score']
     print(f"{score}")
     user.score += int(score)
     db.session.commit()
 
-    return redirect(url_for('index'))
+    return 'done'
 
 
 @app.route('/game/<usernames>')
@@ -97,6 +101,15 @@ def game(usernames):
 @login_required
 def lobby():
     return render_template('lobby.html')
+
+
+
+@app.route('/rank')
+@login_required
+def rank():
+    top = User.query.order_by(User.score.desc()).limit(25).all()
+    return render_template('rank.html', top=top)
+
 
 
 def randomString(stringLength=8):
@@ -254,8 +267,13 @@ def win(data):
     print('finish', data['winer'])
     game = roomsGame[data['room']]
     game.rasp += 1
-    if game.rasp == game.users:
-        emit('finish', room=data['winer'])
+    if game.users == 2:
+        if game.rasp == game.users:
+            emit('finish',{'score':5},room=data['winer'])
+            socketio.sleep(3)
+            emit('redirect', room=game.room)
+    elif game.rasp == game.users:
+        emit('finish',{"score":10} ,room=data['winer'])
         game.rasp = 0
 
 

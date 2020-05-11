@@ -23,7 +23,8 @@ $(function () {
     socket.on('start', function (data) {
         gameroom = data.url;
         socket.disconnect();
-        window.location.href = protocol + '//' + document.domain + ':' + location.port + '/game' + '/' + gameroom
+        window.location.replace( protocol + '//' + document.domain + ':' + location.port + '/game' + '/' + gameroom);
+
     });
 
     function now(data) {

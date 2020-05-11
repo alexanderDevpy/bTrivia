@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block head %}<link rel="stylesheet" href="{{ url_for('static', filename='css/rank.css') }}">{% endblock %}
+{% block content %}
+<div class="rank" >
+
+
+    <div id="pos1" class="top">{{top[0].username}} </div>
+    <div id="pos2" class="top">{{top[1].username}}  </div>
+    <div id="pos3" class="top">{{top[2].username}}  </div>
+
+
+
+
+</div>
+<div id="t25">Top 25</div>
+
+
+
+<div class="tabrank">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">User</th>
+            <th scope="col">Score</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for user in top %}
+        {%if user.score > 0 %}
+        <tr>
+            <th scope="row">{{loop.index}}</th>
+            <td>{{user.username}}</td>
+            <td>{{user.score}}</td>
+
+        </tr>
+        {%endif%}
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
