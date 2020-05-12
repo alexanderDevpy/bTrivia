@@ -194,9 +194,9 @@ $(function () {
 
         })
     }else {
-        await new Promise(r => setTimeout(r, 6000));
+        
         console.log('redirec');
-        //window.location.href = protocol + '//' + document.domain + ':' + location.port + '/index';
+        window.location.href = protocol + '//' + document.domain + ':' + location.port + '/index';
     }
 
 
