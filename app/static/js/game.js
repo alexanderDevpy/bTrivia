@@ -195,7 +195,7 @@ $(function () {
         })
     }else {
         
-        console.log('redirec');
+        
         window.location.href = protocol + '//' + document.domain + ':' + location.port + '/index';
     }
 
